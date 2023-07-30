@@ -1,0 +1,25 @@
+{
+	"manifestVersion": 1,
+	"name": "Starfinder Character Sheet - Hephaistos",
+	"entryPoint": "https://hephaistos.online/",
+	"license": "CC0",
+	"controls": {
+		"navigation": true,
+		"reload": true
+	},
+	"api": {
+		"version": "0.1",
+		"subscriptions": {
+			"dice": {
+				"onRollResults": "handleRollResult"
+			}
+		}
+	},
+	"environment": {
+		"webViewBackgroundColor": "#1F1F1F",
+		"extras": [
+			"/script.js",
+			"/styles.css"
+		]
+	}
+}
