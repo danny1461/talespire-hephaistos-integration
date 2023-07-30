@@ -1,6 +1,13 @@
 {
 	"manifestVersion": 1,
 	"name": "Starfinder Character Sheet - Hephaistos",
+	"about": {
+		"website": "https://github.com/danny1461/talespire-hephaistos-integration",
+		"authors": [
+			"Daniel Flynn",
+			"Bryan Oakley"
+		]
+	},
 	"entryPoint": "https://hephaistos.online/",
 	"license": "CC0",
 	"controls": {
