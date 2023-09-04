@@ -14,3 +14,9 @@ Makes one of the heros just a little more visable
 .export-button {
     display: none;
 }
+
+.notification-popup-container .notification-popup-list {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
